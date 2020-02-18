@@ -84,16 +84,16 @@ let wagesEarnedOnDate = function(workDate){
     return parseFloat(rawWage.toString())
 }
 
-// let findEmployeebyFirstName = function(srcArray, firstName) {
-//   return srcArray.find(function(rec){
-//     return rec.firstName === firstName
-//   })
-// }
+let findEmployeebyFirstName = function(srcArray, firstName) {
+  return srcArray.find(function(rec){
+    return rec.firstName === firstName
+  })
+}
 
-// let calculatePayroll = function(arrayOfEmployeeRecords){
-//     return arrayOfEmployeeRecords.reduce(function(memo, rec){
-//         return memo + allWagesFor.call(rec)
-//     }, 0)
-// }
+let calculatePayroll = function(arrayOfEmployeeRecords){
+    return arrayOfEmployeeRecords.reduce(function(memo, rec){
+        return memo + allWagesFor.call(rec)
+    }, 0)
+}
 
 
